@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import data from './testData';
+import App from './components/App';
+
+
+
 
 
 ReactDOM.render(
-    <h2 className="text-center">
-        Hello REACT with JSX!!</h2>,
+    <App contests={data.contests} />,
     document.getElementById('root')
 );
+
